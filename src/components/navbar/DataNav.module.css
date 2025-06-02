@@ -1,0 +1,187 @@
+.dataNav {
+  width: 100%;
+  height: 100vh;
+}
+
+.nav {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(145deg, #f3faf6 0%, #fafdff 100%);
+  position: relative;
+}
+
+.panelClose {
+  padding: 0 15px;
+  background: none;
+  border: none;
+  color: #505353;
+  font-size: 1.3em;
+  cursor: pointer;
+  z-index: 1200;
+  opacity: 0.65;
+  transition: color 0.18s, opacity 0.14s;
+  font-family: inherit;
+  font-weight: 800;
+}
+
+.panelClose:hover {
+  color: #24543b;
+  opacity: 1;
+}
+
+.img {
+  position: relative;
+}
+
+.img img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  background-color: #e1f8f2;
+}
+
+.panelContent {
+  padding: 22px 18px 14px 18px;
+  box-sizing: border-box;
+}
+
+.valleyTitle {
+  font-weight: 700;
+  font-size: 1.25em;
+  color: #2e6554;
+  letter-spacing: -0.3px;
+  margin-bottom: 12px;
+  line-height: 1.25;
+  font-family: 'Pretendard Variable', 'Noto Sans KR', sans-serif;
+}
+
+.valleyInfoGroup {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+  gap: 6px;
+}
+
+.valleyBadge {
+  background: linear-gradient(120deg, #e6f9ea 60%, #d6eefe 100%);
+  color: #468d74;
+  font-weight: 500;
+  font-size: 0.99em;
+  border-radius: 7px;
+  padding: 2.4px 9px;
+  margin-right: 2px;
+  margin-bottom: 0.5px;
+  letter-spacing: 0.01em;
+  font-family: 'Noto Sans KR', 'Pretendard Variable', sans-serif;
+}
+
+.valleyBadgeDanger {
+  background: linear-gradient(120deg, #fae7da 60%, #ffe8e9 100%);
+  color: #c46121;
+}
+
+.valleyValue {
+  color: #246c3c;
+  font-size: 1em;
+  font-weight: 440;
+  letter-spacing: -0.06px;
+  font-family: 'Pretendard Variable', 'Noto Sans KR', sans-serif;
+}
+
+.valleyValueProhibited {
+  color: #c46121;
+  font-weight: 500;
+}
+
+/* 위험도 등급별 스타일 */
+.valleyDanger {
+  border-radius: 5px;
+  font-size: 0.92em;
+  padding: 2.5px 6px;
+  margin-left: 7px;
+  font-weight: 600;
+}
+
+.valleyDangerColor {
+  color: #f5f3f3;
+  border-radius: 5px;
+  font-size: 0.92em;
+  padding: 2.5px 6px;
+  margin-left: 7px;
+  font-weight: 600;
+}
+
+.valleyDangerSafe {
+  background: #e8f5e8;
+  color: #2d5a2d;
+}
+
+.valleyDangerCaution {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.valleyDangerWarning {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.valleyDangerCritical {
+  background: #f5c6cb;
+  color: #721c24;
+}
+
+/* 주의문구 */
+.cautionMessage {
+  background: linear-gradient(107deg, #f7f5e8 70%, #e7ebeb 100%);
+  border: 1.5px solid #ffe080;
+  border-radius: 9px;
+  margin: 20px 0 16px 0;
+  color: #a37407;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px 16px 13px 16px;
+  font-family: 'Noto Sans KR', 'Pretendard Variable', sans-serif;
+  font-size: 1em;
+}
+
+.cautionIcon {
+  font-size: 1.25em;
+  vertical-align: middle;
+  margin-bottom: 2px;
+}
+
+.cautionTitle {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #be8306;
+  font-size: 1.07em;
+  letter-spacing: -0.02em;
+}
+
+.cautionDetail {
+  line-height: 1.48;
+  color: #a37407;
+  font-size: 1em;
+}
+
+.cautionDetail span {
+  color: #bda816;
+  font-size: 0.98em;
+}
+
+.valleyUpdated {
+  margin-top: 9px;
+  color: #7ba394;
+  font-size: 0.91em;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}

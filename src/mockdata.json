@@ -1,0 +1,51 @@
+{
+  "locations": [
+    {
+      "id": 0,
+      "name": "도봉동 유역",
+      "addr":  "서울 도봉구 도봉동",
+      "upstream": {
+        "name": "도봉산길",
+        "lat": 37.687351,
+        "lng": 127.024940,
+        "flowRate": 0,
+        "flowRateRisk": 0,
+        "waterLv": 3,
+        "waterLvRisk": 4,
+        "totalRisk": 2
+      },
+      "downstreams": [
+        {
+          "name": "도봉계곡",
+          "lat": 37.687474,
+          "lng": 127.029692,
+          "flowRate": 24,
+          "flowRateRisk": 4,
+          "waterLv": 0,
+          "waterLvRisk": 0,
+          "totalRisk": 2
+        },
+        {
+          "name": "도봉산 도봉 탐방지원센터",
+          "lat": 37.685891,
+          "lng": 127.036397,
+          "flowRate": 24,
+          "flowRateRisk": 4,
+          "waterLv": 0,
+          "waterLvRisk": 0,
+          "totalRisk": 2
+        },
+        {
+          "name": "도봉천",
+          "lat": 37.687435,
+          "lng": 127.033157,
+          "flowRate": 24,
+          "flowRateRisk": 4,
+          "waterLv": 0,
+          "waterLvRisk": 0,
+          "totalRisk": 2
+        }
+      ]
+    }
+  ]
+}

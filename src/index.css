@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+}
+
+.nav {
+  width: 370px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 350px 20px;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: .2s ease;
+}
+
+#map {
+  z-index: 0;
+}
+
+#map > div > div > div > div {
+  border: 1px solid #f5f5f7 !important;
+  border-radius: 8px;
+}
+
+.current-location-btn {
+  width: 45px;
+  height: 45px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  border: 1px #a0a0a0 solid;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.current-btn-img {
+  width: 60%;
+  height: 60%;
+  background-image: url('../public/img/pngwing.com.png');
+  background-position: center;
+  background-size: contain;
+}
+
+.red {
+  background-color: #F08080 !important;
+}
+
+.orange {
+  background-color: #ffa500 !important;
+}
+
+.yellow {
+  background-color: #efcf16 !important;
+}
+
+.green {
+  background-color: #71ac86 !important;
+}
